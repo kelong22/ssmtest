@@ -29,4 +29,11 @@ public interface ItemsDao {
      * @param items
      */
     void delete(Items items);
+
+    /**
+     * 查询单个
+     * @param items
+     * @return
+     */
+    Items select(Items items);
 }
