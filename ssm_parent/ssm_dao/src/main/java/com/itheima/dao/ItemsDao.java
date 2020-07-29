@@ -22,4 +22,11 @@ public interface ItemsDao {
      * @return
      */
     int save(Items items);
+
+
+    /**
+     * 删除操作
+     * @param items
+     */
+    void delete(Items items);
 }
