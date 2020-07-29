@@ -29,4 +29,10 @@ public interface ItemsDao {
      * @param items
      */
     void delete(Items items);
+    
+     /**
+     *增加操作
+     */
+    int add(Items items);
+    
 }
