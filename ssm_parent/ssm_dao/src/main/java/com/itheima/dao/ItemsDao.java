@@ -30,6 +30,12 @@ public interface ItemsDao {
      */
     void delete(Items items);
 
+     /**
+     *增加操作
+     */
+    int add(Items items);
+
+
     /**
      * 查询单个
      * @param items
